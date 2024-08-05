@@ -10,7 +10,7 @@
     justify-content: space-around;
     width: 100%;
     height: 100px;
-    
+    transition: all 1s ease-in-out;
 }
 
 .logoContainer {
@@ -59,10 +59,42 @@
     -webkit-box-shadow: 7px 9px 22px -10px rgba(0,0,0,0.96);
     -moz-box-shadow: 7px 9px 22px -10px rgba(0,0,0,0.96);
     box-shadow: 7px 9px 22px -10px rgba(0,0,0,0.96);
-    transition: 1s all ease-in;
+    -moz-transition: background-image 1s ease-in-out ;
+    transition: background-image 1s ease-out ;
 }
 
 
 #info {
     font-size: 40px;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.meetUsText {
+    width: 40%;
+}
+
+.meetUsText h2 {
+    font-size: 30px;
+    /* font-family: Playfair_Display; */
+    font-family: Plus_Jakarta_Sans;
+}
+
+.meetUsText p {
+    font-size: 18px;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-family: Plus_Jakarta_Sans;
+
+}
+
+.meetUsImage {
+    width: 40%;
 }

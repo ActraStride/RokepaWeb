@@ -2,4 +2,9 @@
     font-family: 'Plus_Jakarta_Sans';
     src: url('../../assets/fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Playfair_Display';
+    src: url('../../assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+}
   
